@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>C_</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.KeyVault" Version="3.0.5"/>
+    <PackageReference Include="Azure.Security.KeyVault.Secrets" Version="4.0.3"/>
+    <PackageReference Include="Azure.Security.KeyVault.Certificates" Version="4.0.2"/>
+    <PackageReference Include="Azure.Security.KeyVault.Keys" Version="4.0.3"/>
+    <PackageReference Include="Azure.Identity" Version="1.1.1"/>
+  </ItemGroup>
+</Project>
